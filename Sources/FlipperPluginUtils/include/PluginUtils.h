@@ -1,19 +1,19 @@
 #import <Foundation/Foundation.h>
 
-#ifndef PluginUtils_h
-#define PluginUtils_h
+#ifndef FlipperPluginUtils_h
+#define FlipperPluginUtils_h
 
-//! Project version number for PluginUtils.
-FOUNDATION_EXPORT double PluginUtilsVersionNumber;
+//! Project version number for FlipperPluginUtils.
+FOUNDATION_EXPORT double FlipperPluginUtilsVersionNumber;
 
-//! Project version string for PluginUtils.
-FOUNDATION_EXPORT const unsigned char PluginUtilsVersionString[];
+//! Project version string for FlipperPluginUtils.
+FOUNDATION_EXPORT const unsigned char FlipperPluginUtilsVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <PluginUtils/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <FlipperPluginUtils/PublicHeader.h>
 
 // User Defaults
 #import <../UserDefaults/FKUserDefaultsSwizzleUtility.h>
 
 // Network Adapter
 #import <../NetworkAdapter/SKIOSNetworkAdapter.h>
-#endif /* PluginUtils_h */
+#endif /* FlipperPluginUtils_h */
